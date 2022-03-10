@@ -1,0 +1,121 @@
+/* RESET  */
+*{
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    width: 100%;
+}
+/* DEBUG */
+
+/* COMMON */
+html{
+    font-size: 62.5%;
+}
+p{
+    line-height: 1.5em;
+}
+.float{
+    float: left;
+}
+.clearfix::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* bottoni */
+.btn{
+    font-weight: bold;
+    border-radius: 1.5em;
+}
+.white{
+    background-color: white;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.small{
+    font-size: .7em;
+    padding: .7em;
+}
+.large{
+    font-size: 1em;
+    padding: .5em;
+}
+/* HEADER  */
+header{
+    background-color: #3161e0;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+/* NAV */
+.nav{
+    /* margin-top: 10px; */
+    height: 30px;
+}
+.nav-col{
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+.nav-list{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+/* logo discord */
+.nav-col img{
+    width: 50%;
+    height: auto;
+}
+/* barra di navigazione */
+.nav-list li{
+    display: inline-block;
+    color: white;
+    line-height: 30px;
+}
+.nav-list a{
+    font-weight: bold;
+    font-size: .8em;
+    color: inherit;
+    padding: 0 .8em;
+}
+.nav-list a:hover{
+    text-decoration: underline;
+}
+
+/*JUMBOTRON*/
+.jumbotron{
+    position: relative;
+    height: 35vh;
+    color: white;
+    text-align: center;
+}
+.jumbotron a{
+    display: inline-block;
+    margin-top: 1em;
+}
+.jumbotron-head{
+    font-size: 2.5em;
+}
